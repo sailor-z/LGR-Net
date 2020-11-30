@@ -10,14 +10,14 @@ This repository is a reference implementation for "Rotation invariant point clou
   year={2019}
 }
 ```
-# Train model on ModelNet40
+# Install 
 ***
-The code of svd is borrowed from [torch-batch-svd] (https://github.com/KinglittleQ/torch-batch-svd). Please installing it before runing the training code. 
+The code of svd is borrowed from [torch-batch-svd](https://github.com/KinglittleQ/torch-batch-svd). Please installing it before runing the training code. 
 ```
 cd ./pt_utils/svd
 python setup.py install
 ```
-
+# Train model on ModelNet40
 ```
 cd ../../
 python ./train_cls.py
