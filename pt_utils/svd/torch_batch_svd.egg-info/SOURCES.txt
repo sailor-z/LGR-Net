@@ -1,0 +1,7 @@
+README.md
+setup.py
+torch_batch_svd.cpp
+torch_batch_svd.egg-info/PKG-INFO
+torch_batch_svd.egg-info/SOURCES.txt
+torch_batch_svd.egg-info/dependency_links.txt
+torch_batch_svd.egg-info/top_level.txt
