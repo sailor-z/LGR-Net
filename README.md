@@ -10,3 +10,11 @@ This repository is a reference implementation for "Rotation invariant point clou
   year={2019}
 }
 ```
+# Train model on ModelNet40
+***
+```
+cd ./pt_utils/svd
+python setup.py install
+cd ../../
+python ./train_cls.py
+```
