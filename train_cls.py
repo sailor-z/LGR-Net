@@ -13,10 +13,8 @@ import torch.optim as optim
 import torch.utils.data
 from torch.optim.lr_scheduler import CosineAnnealingLR
 from torch.autograd import Variable
-#from datasets import PartDataset
 from ModelNet40Loader import ModelNet40Cls
 from Network import Dar_Cls, loss_f, cal_loss
-#from util import rotate_point_cloud, jitter_point_cloud, feature_extra
 import torch.nn.functional as F
 
 def adjust_learning_rate(optimizer, epoch, opt):
